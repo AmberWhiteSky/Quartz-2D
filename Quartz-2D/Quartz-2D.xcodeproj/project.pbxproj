@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C3A26671B8B661800806F36 /* AmCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A26661B8B661800806F36 /* AmCircleView.m */; };
 		3CAF6EAD1B8B3DE300F77333 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF6EAC1B8B3DE300F77333 /* main.m */; };
 		3CAF6EB01B8B3DE300F77333 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF6EAF1B8B3DE300F77333 /* AppDelegate.m */; };
 		3CAF6EB31B8B3DE300F77333 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF6EB21B8B3DE300F77333 /* ViewController.m */; };
@@ -29,6 +30,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C3A26651B8B661800806F36 /* AmCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmCircleView.h; sourceTree = "<group>"; };
+		3C3A26661B8B661800806F36 /* AmCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmCircleView.m; sourceTree = "<group>"; };
 		3CAF6EA71B8B3DE300F77333 /* Quartz-2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz-2D.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CAF6EAB1B8B3DE300F77333 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3CAF6EAC1B8B3DE300F77333 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -91,6 +94,8 @@
 				3CAF6ED11B8B3E7900F77333 /* AmLineView.m */,
 				3CAF6ED21B8B3E7900F77333 /* AmShape.h */,
 				3CAF6ED31B8B3E7900F77333 /* AmShape.m */,
+				3C3A26651B8B661800806F36 /* AmCircleView.h */,
+				3C3A26661B8B661800806F36 /* AmCircleView.m */,
 				3CAF6EAE1B8B3DE300F77333 /* AppDelegate.h */,
 				3CAF6EAF1B8B3DE300F77333 /* AppDelegate.m */,
 				3CAF6EB11B8B3DE300F77333 /* ViewController.h */,
@@ -229,6 +234,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C3A26671B8B661800806F36 /* AmCircleView.m in Sources */,
 				3CAF6ED41B8B3E7900F77333 /* AmLineView.m in Sources */,
 				3CAF6ED51B8B3E7900F77333 /* AmShape.m in Sources */,
 				3CAF6EB31B8B3DE300F77333 /* ViewController.m in Sources */,
@@ -428,6 +434,7 @@
 				3CAF6ECC1B8B3DE300F77333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3CAF6ECD1B8B3DE300F77333 /* Build configuration list for PBXNativeTarget "Quartz-2DTests" */ = {
 			isa = XCConfigurationList;
@@ -436,6 +443,7 @@
 				3CAF6ECF1B8B3DE300F77333 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

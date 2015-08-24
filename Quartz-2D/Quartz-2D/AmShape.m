@@ -22,18 +22,28 @@
     
     
     //画矩形
-    
     drawSquare();
+    
+    //画三角形
+    //    drawTriangle();
 }
 
 
-//画正方形
+//画矩形
 void drawSquare(){
     //上下文
     CGContextRef  context = UIGraphicsGetCurrentContext();
     
     // 画矩形
     CGContextAddRect(context, CGRectMake(10, 10, 150, 200));
+    
+    //set 同时设置为实心和空心颜色
+    //setStroke 设置空心颜色
+    //setFill 设置实心颜色
+    [[UIColor yellowColor] set];
+    
+    //设置实心颜色
+    //    CGContextSetRGBFillColor(context, 0.2, 0.6, 0.618, 0.45);
     
     //绘制矩形
     CGContextStrokePath(context);
@@ -50,6 +60,11 @@ void drawTriangle(){
     CGContextAddLineToPoint(context, 100, 100);
     CGContextAddLineToPoint(context, 150, 80);
     // 关闭路径  （连接起点和终点）
+    // 设置工业颜色
+    //    CGContextSetCMYKStrokeColor(context, <#CGFloat cyan#>, <#CGFloat magenta#>, <#CGFloat yellow#>, <#CGFloat black#>, 0.8);
+    
+    CGContextSetRGBStrokeColor(context, 1.0, 0.2, 0.3,0.5);
+    
     CGContextClosePath(context);
     CGContextStrokePath(context);
     
