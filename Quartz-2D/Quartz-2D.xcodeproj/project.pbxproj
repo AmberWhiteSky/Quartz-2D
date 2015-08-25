@@ -17,6 +17,7 @@
 		3CAF6EC71B8B3DE300F77333 /* Quartz_2DTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF6EC61B8B3DE300F77333 /* Quartz_2DTests.m */; };
 		3CAF6ED41B8B3E7900F77333 /* AmLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF6ED11B8B3E7900F77333 /* AmLineView.m */; };
 		3CAF6ED51B8B3E7900F77333 /* AmShape.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF6ED31B8B3E7900F77333 /* AmShape.m */; };
+		3CB507E31B8BF43C00B25B8F /* AmTextImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CB507E21B8BF43C00B25B8F /* AmTextImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		3CAF6ED11B8B3E7900F77333 /* AmLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmLineView.m; sourceTree = "<group>"; };
 		3CAF6ED21B8B3E7900F77333 /* AmShape.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmShape.h; sourceTree = "<group>"; };
 		3CAF6ED31B8B3E7900F77333 /* AmShape.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmShape.m; sourceTree = "<group>"; };
+		3CB507E11B8BF43C00B25B8F /* AmTextImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmTextImageView.h; sourceTree = "<group>"; };
+		3CB507E21B8BF43C00B25B8F /* AmTextImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmTextImageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 		3CAF6EA91B8B3DE300F77333 /* Quartz-2D */ = {
 			isa = PBXGroup;
 			children = (
+				3CB507E11B8BF43C00B25B8F /* AmTextImageView.h */,
+				3CB507E21B8BF43C00B25B8F /* AmTextImageView.m */,
 				3CAF6ED01B8B3E7900F77333 /* AmLineView.h */,
 				3CAF6ED11B8B3E7900F77333 /* AmLineView.m */,
 				3CAF6ED21B8B3E7900F77333 /* AmShape.h */,
@@ -238,6 +243,7 @@
 				3CAF6ED41B8B3E7900F77333 /* AmLineView.m in Sources */,
 				3CAF6ED51B8B3E7900F77333 /* AmShape.m in Sources */,
 				3CAF6EB31B8B3DE300F77333 /* ViewController.m in Sources */,
+				3CB507E31B8BF43C00B25B8F /* AmTextImageView.m in Sources */,
 				3CAF6EB01B8B3DE300F77333 /* AppDelegate.m in Sources */,
 				3CAF6EAD1B8B3DE300F77333 /* main.m in Sources */,
 			);
