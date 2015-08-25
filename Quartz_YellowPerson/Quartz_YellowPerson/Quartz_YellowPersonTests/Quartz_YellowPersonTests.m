@@ -1,6 +1,6 @@
 //
-//  GitTestTests.m
-//  GitTestTests
+//  Quartz_YellowPersonTests.m
+//  Quartz_YellowPersonTests
 //
 //  Created by AmberWhiteSky on 15/8/25.
 //  Copyright (c) 2015年 AmberWhiteSky. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface GitTestTests : XCTestCase
+@interface Quartz_YellowPersonTests : XCTestCase
 
 @end
 
-@implementation GitTestTests
+@implementation Quartz_YellowPersonTests
 
 - (void)setUp {
     [super setUp];
